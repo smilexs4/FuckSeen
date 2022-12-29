@@ -1,3 +1,3 @@
 # FuckSeen
 
-Prevent others from seeing the "seen" watermark when you click on a chat window
+Tamper monkey script to prevent others from seeing the "seen" watermark when you click on a chat window.
