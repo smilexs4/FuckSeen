@@ -42,7 +42,7 @@
     wsSend = wsSend.apply.bind(wsSend);
     OrigWebSocket.prototype.send = function(data) {
         // TODO: Do something with the sent data if you wish.
-        if ((new TextDecoder().decode(data)).includes('last_read_watermark_ts')) {
+        if (new TextDecoder().decode(data).includes('last_read_watermark_ts')) {
             console.log('FuckSeen');
             return;
         }
